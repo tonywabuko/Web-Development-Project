@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doc Eats - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1>Doc Eats</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Dark mode toggle -->
+  <div class="theme-toggle">
+    <button id="toggle-dark-mode">🌓 Toggle Dark Mode</button>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Doc Eats</h1>
+    <p>Nutritious meals delivered to healthcare heroes in hospitals</p>
+    <img src="Images\doceating.jpg" alt="Doctor enjoying a meal" class="hero-img">
+    <a href="menu.html" class="cta-button">📖 View Menu</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Doc Eats</h2>
+    <div class="about-content">
+      <img src="Images\doceating.webp" alt="Doctor enjoying a meal" class="about-img">
+      <p>
+        Doc Eats is a meal delivery service designed for healthcare workers in hospitals across Nairobi.
+        Our mission is to fuel healthcare heroes with freshly prepared, nutritious meals—delivered straight to their workplace without disrupting their tight schedules.
+      </p>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Browse Menu</h3>
+        <p>Check our diverse menu crafted for health and energy.</p>
+      </div>
+      <div class="step">
+        <h3>2. Place Order</h3>
+        <p>Choose your meal, and place an order via WhatsApp or hotline.</p>
+      </div>
+      <div class="step">
+        <h3>3. Get It Delivered</h3>
+        <p>Our team delivers hot meals straight to your hospital location.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-us">
+    <h2>Why Choose Doc Eats?</h2>
+    <ul>
+      <li>✅ Healthy & Balanced Meals</li>
+      <li>✅ Fast Delivery within Nairobi</li>
+      <li>✅ Designed for Busy Healthcare Professionals</li>
+      <li>✅ Affordable & Transparent Pricing</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Healthcare Workers Say</h2>
+    <blockquote>
+      "Doc Eats has been a lifesaver during long shifts. I don’t have to worry about where to eat anymore!"
+      <br>– Dr. Achieng, Kenyatta Hospital
+    </blockquote>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta">
+    <h2>Ready to Order?</h2>
+    <p>Start your day with a healthy meal. We’re just a call away!</p>
+    <a href="menu.html" class="cta-button">Browse Our Menu</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Doc Eats. All rights reserved.</p>
+    <p>Contact: +254799104517 | Email: tonywabuko@gmail.com</p>
+  </footer>
+
+  <!-- Dark mode script -->
+  <script>
+    const toggleButton = document.getElementById('toggle-dark-mode');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+
+</body>
+</html>

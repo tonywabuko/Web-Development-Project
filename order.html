@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DocEats | Order</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">DocEats</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="darkToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="order-form">
+    <h2>Place Your Order</h2>
+    <form id="mealForm">
+      <input type="text" placeholder="Full Name" required />
+      <input type="text" placeholder="Hospital/Ward" required />
+      <select required>
+        <option value="">Choose Meal</option>
+        <option value="salad">Salad</option>
+        <option value="chicken">Chicken</option>
+        <option value="smoothie">Smoothie</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="confirmationMsg" class="hidden">✅ Your order has been placed!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DocEats. Powered by Heart.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

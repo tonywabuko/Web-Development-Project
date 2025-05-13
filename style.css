@@ -1,0 +1,160 @@
+/* General styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 15px 0;
+}
+
+header nav h1 {
+  text-align: center;
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.theme-toggle {
+  text-align: center;
+  padding: 10px;
+}
+
+#toggle-dark-mode {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-dark-mode:hover {
+  background-color: #218838;
+}
+
+.hero {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-img {
+  width: 320px;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step {
+  width: 30%;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px;
+}
+
+/* === Dark Mode Styles === */
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.dark-mode nav a {
+  color: #fff;
+}
+
+.dark-mode .hero {
+  background: #222;
+  color: #fff;
+}
+
+.dark-mode .about-content {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark-mode .cta-button {
+  background-color: #ffc107;
+  color: #121212;
+}
+
+.dark-mode .cta-button:hover {
+  background-color: #e0a800;
+}
