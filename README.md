@@ -2,8 +2,7 @@
 
 **Nutritious Meals Delivered to Healthcare Heroes**
 
-[Live Project Preview](https://tonywabuko.github.io/Web-Development-Project/)  
-[GitHub Repository](https://github.com/tonywabuko/Web-Development-Project.git)
+
 
 ---
 
@@ -54,13 +53,7 @@ Web-Development-Project/
 
 ---
 
-## 📸 Screenshots
 
-### Homepage
-![Homepage Screenshot](images/homepage-screenshot.jpg) *(Add actual screenshot here)*
-
-### Menu Page
-![Menu Screenshot](images/menu-screenshot.jpg) *(Add actual screenshot here)*
 
 ---
 
